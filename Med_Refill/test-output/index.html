@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Medrefill_Web_App" class="navigator-link">
+              <span class="suite-name border-passed">Medrefill Web App</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Medrefill_Web_App" class="navigator-link ">
+                    <span>C:\Users\Admin\eclipse-workspace\Med_Refill\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Medrefill_Web_App" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Medrefill_Web_App" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Medrefill_Web_App" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Medrefill_Web_App" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Medrefill_Web_App" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Medrefill_Web_App" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Medrefill_Web_App" class="hide-methods passed suite-Medrefill_Web_App"> (hide)</a> <!-- hide-methods passed suite-Medrefill_Web_App -->
+                      <a href="#" panel-name="suite-Medrefill_Web_App" class="show-methods passed suite-Medrefill_Web_App"> (show)</a> <!-- show-methods passed suite-Medrefill_Web_App -->
+                    </span>
+                    <div class="method-list-content passed suite-Medrefill_Web_App">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Medrefill_Web_App" title="com.medevantage.medrefill.testCase.VerifyOTP_Test" class="method navigator-link" hash-for-method="enterYourOTP">enterYourOTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Medrefill_Web_App" title="com.medevantage.medrefill.testCase.VerifyOTP_Test" class="method navigator-link" hash-for-method="enterYourOTP">enterYourOTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Medrefill_Web_App" title="com.medevantage.medrefill.testCase.MessagYourProvider_Test" class="method navigator-link" hash-for-method="messageYourProvider">messageYourProvider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Medrefill_Web_App" title="com.medevantage.medrefill.testCase.PatientVerification_Test" class="method navigator-link" hash-for-method="patientVerification">patientVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Medrefill_Web_App" title="com.medevantage.medrefill.testCase.PatientVerification_Test" class="method navigator-link" hash-for-method="patientVerification">patientVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Medrefill_Web_App" title="com.medevantage.medrefill.testCase.RequestPrescriptionRefill_Test" class="method navigator-link" hash-for-method="requestPrescriptionRefill">requestPrescriptionRefill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Medrefill_Web_App -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Medrefill_Web_App" class="panel Medrefill_Web_App">
+          <div class="suite-Medrefill_Web_App-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.medevantage.medrefill.testCase.PatientVerification_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientVerification">
+                  </a> <!-- patientVerification -->
+                  <span class="method-name">patientVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patientVerification">
+                  </a> <!-- patientVerification -->
+                  <span class="method-name">patientVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Medrefill_Web_App-class-passed -->
+          <div class="suite-Medrefill_Web_App-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.medevantage.medrefill.testCase.VerifyOTP_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterYourOTP">
+                  </a> <!-- enterYourOTP -->
+                  <span class="method-name">enterYourOTP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterYourOTP">
+                  </a> <!-- enterYourOTP -->
+                  <span class="method-name">enterYourOTP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Medrefill_Web_App-class-passed -->
+          <div class="suite-Medrefill_Web_App-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.medevantage.medrefill.testCase.MessagYourProvider_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="messageYourProvider">
+                  </a> <!-- messageYourProvider -->
+                  <span class="method-name">messageYourProvider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Medrefill_Web_App-class-passed -->
+          <div class="suite-Medrefill_Web_App-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.medevantage.medrefill.testCase.RequestPrescriptionRefill_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="requestPrescriptionRefill">
+                  </a> <!-- requestPrescriptionRefill -->
+                  <span class="method-name">requestPrescriptionRefill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Medrefill_Web_App-class-passed -->
+        </div> <!-- panel Medrefill_Web_App -->
+        <div panel-name="test-xml-Medrefill_Web_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\Med_Refill\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Medrefill Web App&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.medevantage.medrefill.utility.ListenerTest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Request Prescription Refill&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.base.BaseClass&quot;/&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.testCase.PatientVerification_Test&quot;/&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.testCase.VerifyOTP_Test&quot;/&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.testCase.RequestPrescriptionRefill_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Request Prescription Refill --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Message Your Provider&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.base.BaseClass&quot;/&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.testCase.PatientVerification_Test&quot;/&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.testCase.VerifyOTP_Test&quot;/&gt;
+      &lt;class name=&quot;com.medevantage.medrefill.testCase.MessagYourProvider_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Message Your Provider --&gt;
+&lt;/suite&gt; &lt;!-- Medrefill Web App --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Medrefill_Web_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Medrefill Web App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Request Prescription Refill (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Message Your Provider (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Medrefill_Web_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Medrefill Web App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Medrefill_Web_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Medrefill Web App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Medrefill_Web_App');
+function tableData_Medrefill_Web_App() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterYourOTP')
+data.setCell(0, 2, 'com.medevantage.medrefill.testCase.VerifyOTP_Test')
+data.setCell(0, 3, 13253);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterYourOTP')
+data.setCell(1, 2, 'com.medevantage.medrefill.testCase.VerifyOTP_Test')
+data.setCell(1, 3, 11912);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'patientVerification')
+data.setCell(2, 2, 'com.medevantage.medrefill.testCase.PatientVerification_Test')
+data.setCell(2, 3, 11292);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'patientVerification')
+data.setCell(3, 2, 'com.medevantage.medrefill.testCase.PatientVerification_Test')
+data.setCell(3, 3, 11246);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'messageYourProvider')
+data.setCell(4, 2, 'com.medevantage.medrefill.testCase.MessagYourProvider_Test')
+data.setCell(4, 3, 11171);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'requestPrescriptionRefill')
+data.setCell(5, 2, 'com.medevantage.medrefill.testCase.RequestPrescriptionRefill_Test')
+data.setCell(5, 3, 7812);
+window.suiteTableData['Medrefill_Web_App']= { tableData: data, tableDiv: 'times-div-Medrefill_Web_App'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Medrefill_Web_App">
+              </div> <!-- times-div-Medrefill_Web_App -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Medrefill_Web_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Medrefill Web App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Medrefill_Web_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.medevantage.medrefill.testCase.PatientVerification_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setupBrowser</span>
+                <br/>
+                <span class="ignored-method-name">setupBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.medevantage.medrefill.testCase.VerifyOTP_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setupBrowser</span>
+                <br/>
+                <span class="ignored-method-name">setupBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.medevantage.medrefill.testCase.MessagYourProvider_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setupBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.medevantage.medrefill.testCase.RequestPrescriptionRefill_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+                <span class="ignored-method-name">setupBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Medrefill_Web_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.base.BaseClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.testCase.PatientVerification_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patientVerification</span>
+                <span class="method-start">18600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.testCase.VerifyOTP_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enterYourOTP</span>
+                <span class="method-start">29866 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.testCase.RequestPrescriptionRefill_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">requestPrescriptionRefill</span>
+                <span class="method-start">41781 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.base.BaseClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">49595 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">50831 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.testCase.PatientVerification_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">patientVerification</span>
+                <span class="method-start">73151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.testCase.VerifyOTP_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enterYourOTP</span>
+                <span class="method-start">84445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.testCase.MessagYourProvider_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">messageYourProvider</span>
+                <span class="method-start">97700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.medevantage.medrefill.base.BaseClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">108873 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
